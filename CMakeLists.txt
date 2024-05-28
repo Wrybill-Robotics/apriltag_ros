@@ -42,7 +42,7 @@ find_package(cv_bridge REQUIRED)
 find_package(Eigen3 REQUIRED NO_MODULE)
 find_package(Threads REQUIRED)
 find_package(OpenCV REQUIRED)
-find_package(apriltag 3.2 REQUIRED)
+find_package(apriltag 3 REQUIRED)
 
 if(cv_bridge_VERSION VERSION_GREATER_EQUAL 3.3.0)
     add_compile_definitions(cv_bridge_HPP)
